@@ -26,7 +26,9 @@ concurrency:
 jobs:
   # 构建工作
   build:
-    runs-on: ubuntu-latest
+    #指定服务器的运行环境：最新版本ubuntu
+    runs-on: ubuntu-latest  
+     # 使用actions/checkout@v4 库拉取代码到 ubuntu 上
     steps:
       - name: Checkout
         uses: actions/checkout@v4
