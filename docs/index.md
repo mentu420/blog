@@ -7,7 +7,7 @@ hero:
   text: "A VitePress Site"
   tagline: I heard that those with cartoon avatars are all bosses
   image:
-    src: ./public/images/logo.png
+    src: /public/images/logo.png
     alt: Kitty
   actions:
     - theme: brand
