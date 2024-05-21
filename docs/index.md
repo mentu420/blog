@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
+  name: "My Bolg"
   text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: I heard that those with cartoon avatars are all bosses
+  image:
+    src: ./public/images/logo.jpg
+    alt: Kitty
   actions:
     - theme: brand
       text: Markdown Examples
@@ -23,3 +26,14 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+
+<style module>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+  
+  --vp-home-hero-image-background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+  --vp-home-hero-image-filter: blur(150px);
+}
+
+</style>
