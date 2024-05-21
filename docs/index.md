@@ -7,7 +7,7 @@ hero:
   text: "A VitePress Site"
   tagline: I heard that those with cartoon avatars are all bosses
   image:
-    src: ./public/images/logo.jpg
+    src: ./public/images/logo.png
     alt: Kitty
   actions:
     - theme: brand
@@ -26,6 +26,21 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+## Markdown Content
+
+::: tip tailwind 演示
+下面是一个 tailwind 演示，这是一个 markdown 文档
+:::
+
+<span class="text-2xl font-bold">2xl 字体</span>
+
+<button class="btn">Button</button>
+<button class="btn btn-neutral">Neutral</button>
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-secondary">Secondary</button>
+<button class="btn btn-accent">Accent</button>
+<button class="btn btn-ghost">Ghost</button>
+<button class="btn btn-link">Link</button>
 
 <style module>
 :root {
